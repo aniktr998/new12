@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}
+  Market Page
+{% endblock %}
+
+{% block content %}
+     <h1>hii  {{ current_user.username }} you have logged in</h1>
+     <h2><a class="nav-link" href="{{ url_for('logout_page') }}"> <button class="btn btn-primary" type="button">Logout</button></a></h2>
+{% endblock %}
+
+
+
+
+
+
